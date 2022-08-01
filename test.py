@@ -1,9 +1,9 @@
 import streamlit as st
 import time
-
+st.write('Test started')
 @st.cache
 def expensive_computation(a, b):
-    time.sleep(2)  # This makes the function take 2s to run
+    time.sleep(6)  # This makes the function take 2s to run
     return a * b
 
 a = 2
